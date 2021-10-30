@@ -1,0 +1,160 @@
+body{
+    
+  font-size: 20px;
+    font-family: "Perpetua";
+    margin: 0 auto;
+    max-width: 1280px;
+    border-radius: 20px;
+    float: center;
+}
+   
+header{
+    background: #e7e4dd;
+    padding: 5px;
+    color:black;
+    text-align:left;
+    max-width: 1280px;
+    padding-left: 0%;padding-right: 0%; padding-bottom: 25px;
+    padding-top: 2%;
+    margin: 0;
+    width: 1280px;
+   
+}
+     nav {
+      margin: 0;
+      width: 1282px;
+      padding: 0;
+     overflow:hidden;
+     float: left;
+     display: block;
+     
+}
+      nav ul {
+        list-style: none;
+        overflow: hidden;
+        background: rgb(206, 13, 38);
+        display: block;
+    margin: 0;
+    padding: 0;
+}
+      
+      nav ul li {
+        float: left;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+}
+      
+      nav ul li a {
+        display: block; 
+        padding: 20px;
+        color:rgb(245, 115, 56);
+        text-decoration: none;
+}
+      
+      nav ul li:hover {
+        background: #eeb4a6;
+        
+
+}
+
+footer {
+
+  background: #e7e4dd;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+  height: 35px;
+  max-width: 1280px;
+  float: left;
+  width:1280px;
+  display: inline;
+    margin-top: 100px;
+  font-weight: bold;
+}
+
+ul.horizontal{
+
+    margin:0;
+
+    padding:0;
+    color: white;
+}
+
+    ul.horizontal li{
+
+        display:block;
+        float:left;
+        padding: 0 5px;
+        color: white;
+}
+      
+      ul li a {
+          margin-left: 10px;
+          color: white;
+}
+      ul li:first-child, ul li:first-child a {
+        color: white;
+}
+      
+      ul li:nth-child(2), ul li:nth-child(2) a {
+        color: white;
+}
+      ul li:nth-child(3), ul li:nth-child(3) a {
+        color: white;
+}
+
+      .twitter, .twitter a {
+        color: white;
+        
+}
+      
+        h2 {
+          color: black (199, 85, 9);
+          text-align: center;
+          margin-top: 100px;
+}
+
+
+  .textButton, button  {
+            display: block;
+            border-radius: 15px;
+            border: 1px solid white; 
+            color: rgb(240, 206, 168);
+            cursor: pointer;
+            margin: 0 auto;
+            padding: 12px;
+            font-size: 14px;
+            margin: 10px;
+            background:#eeb4a6;
+    border: 1px solid white;
+    font-family: "Perpetua"; color: white;
+}
+
+img {
+  margin-right: 15px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.fin {
+  text-align: left;
+  font-size:medium;
+  color: white;
+  font-style: " Latin Modern Roman"; font-weight: 600;
+  vertical-align: auto;  
+}
+#texto {
+  float: left;
+}
+
+#logo {
+  float: left;
+  margin: 5px;  margin-left: 15px;
+  border-radius: 20px;
+  border: black 4px double;
+}
+#moreText {
+  display: none;
+}
+html {
+  background-image: url(https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1887&q=80);
+}
